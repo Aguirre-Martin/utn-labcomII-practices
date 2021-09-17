@@ -4,28 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>perfil</title>
 </head>
 <body>
     <h1>Perfil</h1>
-    <form action="perfil.html">
+    <form action="perfil.php">
         <fieldset>
-            <p>
-                <label for="rol">Rol</label>
-                <input type="" value="ESTUDIANTE">
-            </p>
-            <p>
-                <label for="nombre_completo">Nombre</label>
-                <input type="text" id="nombre_completo" nombre="nombre_completo" placeholder="Ejemplo Juán Pérez">
-            </p>
-            <p>
-                <label for="pais">País</label>
-                <select name="pais" id="pais">
-                    <option value="">Argentina</option>
-                    <option value="">Chile</option>
-                    <option value="">Brasil</option>             
-                </select>
-            </p>
+            <section>
+                <h2>Datos personales</h2>
+                <p>
+                    <label for="rol">Rol</label>
+                    <input type="" value="ESTUDIANTE">
+                </p>
+                <p>
+                    <label for="nombre_completo">Nombre</label>
+                    <input type="text" id="nombre_completo" nombre="nombre_completo" placeholder="Ejemplo Juán Pérez">
+                </p>
+                <p>
+                    <label for="edad">Edad</label>
+                    <input type="text" id="edad" nombre="edad" placeholder="Ejemplo 18 años">
+                </p>
+                <p>
+                    <label for="pais">País</label>
+                    <select name="pais" id="pais">
+                        <option value="">Argentina</option>
+                        <option value="">Chile</option>
+                        <option value="">Brasil</option>             
+                    </select>
+                </p>
+                <p>
+                    <label for="ocupacion_laboral">Ocupación Laboral</label>
+                    <select name="ocupacion_laboral" id="ocupacion_laboral">
+                        <option value="">Desempleado</option>
+                        <option value="">En búsqueda</option>
+                        <option value="">Trabajo Part Time</option>
+                        <option value="">Trabajo Full Time</option>             
+                    </select>
+                </p>
+            </section>
+        
+            <section>
+                <h2>Preferencias</h2>
+                
+                    <p>
+                        <label for="preferencias_musicales">Banda preferida</label>
+                        <input type="text" id="preferencias_musicales" nombre="preferencias_musicales" placeholder="Ingrese su preferencia">
+                    </p>
+                    <p>
+                        <label for="preferencias_gastronomicas">Comida preferida</label>
+                        <select name="preferencias_gastronomicas" id="preferencias_gastronomicas">
+                            <option value="">Carnes</option>
+                            <option value="">Pastas</option>
+                            <option value="">Pizzas</option>
+                            <option value="">Menu vegetariano</option>             
+                        </select>
+                    </p>
+            </section>
         </fieldset>
     </form>
 
