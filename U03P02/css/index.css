@@ -1,4 +1,4 @@
-* {
+html {
     box-sizing: border-box;
 }
 
@@ -46,6 +46,12 @@ color: #fff;
 .nav-item:hover {
     background-color: #fff;
 }
+
 .nav-item:hover a {
     color: #005700;
+}
+
+.nav-item.nav-item-login {
+    background-color: rgb(47, 255, 109);
+    
 }
