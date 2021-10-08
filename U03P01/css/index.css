@@ -1,5 +1,6 @@
 * {
     font-family: sans-serif;
+    background-color: rgb(254, 254, 254);
 }
 
 h1 {
@@ -27,15 +28,31 @@ a:link {
 ul {
     margin-left: 100px;
     padding: 20px;
-    border: solid 2px blue;
+    border: solid 2px rgb(20, 20, 209);
+    max-width: 40%;
 }
 
 li {
     font-size: 18px;
     font-family: monospace;
+    list-style: none;
+    padding: 10px;    
 }
 
 li a:link {
     color: orange;
+    text-decoration: underline;
+}
+
+li:hover {
+    background: rgba(0, 0, 0,0.1);
+}
+
+.provincias-selectas {
+    color: rgb(38, 190, 38);
+}
+
+.provincias-selectas a:link {
+    color: rgb(38, 190, 38);
 }
 
