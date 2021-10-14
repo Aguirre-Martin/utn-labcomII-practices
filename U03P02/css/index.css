@@ -62,9 +62,10 @@ font-weight: bold;
 }
 
 .nav-item.nav-item-login:hover {
-    background-color: rgba(255, 136, 0, 0.884);
+    background-color: rgba(8, 65, 92, 0.884);
 }
 
 .icon {
-    color: #fff;
+    color: rgba(255, 136, 0, 0.884);
 }
+
