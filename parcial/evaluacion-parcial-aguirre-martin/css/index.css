@@ -42,6 +42,7 @@ nav ul li a {
   font-weight: 100;
   width: 100%;
   display: block;
+  text-align: center;
 }
 
 nav ul li a:hover {
