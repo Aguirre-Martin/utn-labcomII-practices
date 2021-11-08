@@ -2,8 +2,8 @@
 
   nav ul {
     display: flex;
-    flex-wrap: wrap;
-    font-size: 10px;
+    flex-wrap: initial;
+    font-size: 8.5px;
   }
 
   nav ul li {
@@ -50,6 +50,10 @@
 
 /* FOOTER CONTACT */
 
+#footer-contact h2 {
+  font-size: 16px;
+}
+
   #footer-contact .contact-data {
     display: block;
     align-items: left;
@@ -64,6 +68,14 @@
     margin: 0px;
     text-align: left;
   }
-  
+
+  .contact-info {
+    font-size: 14px;
+  }
+
+  .form-control {
+    font-size: 14px;
+  }
+
 
 
